@@ -1,4 +1,4 @@
-import StatCard from './StatCard';
+import StatCard from './statCard';
 
 export default function PokemonStats({ pokemonDetails, activeTab }) {
   return (
