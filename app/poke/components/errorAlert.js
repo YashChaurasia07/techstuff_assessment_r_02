@@ -1,4 +1,4 @@
-export default function erorAlert({ error, onDismiss }) {
+export default function ErrorAlert({ error, onDismiss }) {
   const msg = error;
   const dismissHandler = onDismiss;
 

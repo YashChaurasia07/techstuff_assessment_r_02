@@ -1,4 +1,4 @@
-export default function pokemonHeader({ pokemonDetails }) {
+export default function PokemonHeader({ pokemonDetails }) {
   return (
     <div className="p-6 bg-gradient-to-r from-blue-500 to-blue-600 border-b">
       <div className="flex items-center justify-between">

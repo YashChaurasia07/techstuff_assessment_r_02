@@ -1,4 +1,4 @@
-export default function pokemonTabs({ types, activeTab, onTabChange }) {
+export default function PokemonTabs({ types, activeTab, onTabChange }) {
   return (
     <div className="border-b">
       <div className="flex overflow-x-auto" role="tablist" aria-label="Pokemon types">

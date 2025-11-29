@@ -33,7 +33,7 @@ const colorSchemes = {
   }
 };
 
-export default function statCard({ 
+export default function StatCard({ 
   title, 
   value, 
   description, 

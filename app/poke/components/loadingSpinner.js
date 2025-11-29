@@ -1,5 +1,5 @@
 
-export default function loadingSpinner({ message = 'Loading...', submessage = '' }) {
+export default function LoadingSpinner({ message = 'Loading...', submessage = '' }) {
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 flex-grow">
       <div className="flex flex-col items-center justify-center h-full min-h-[400px]">
