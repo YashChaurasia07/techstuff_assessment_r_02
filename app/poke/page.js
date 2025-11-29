@@ -3,16 +3,16 @@
 import { useState, useMemo, useCallback } from "react";
 import { usePokemonData } from "./hooks/usePokemonData";
 import { usePokemonDetails } from "./hooks/usePokemonDetails";
-import PageHeader from "./components/pageHeader";
-import ErrorAlert from "./components/errorAlert";
-import PokemonTable from "./components/pokemonTable";
-import Pagination from "./components/pagination";
-import PokemonDetails from "./components/pokemonDetails";
-import LoadingSpinner from "./components/loadingSpinner";
+import PageHeader from "./components/PageHeader";
+import ErrorAlert from "./components/ErrorAlert";
+import PokemonTable from "./components/PokemonTable";
+import Pagination from "./components/Pagination";
+import PokemonDetails from "./components/PokemonDetails";
+import LoadingSpinner from "./components/LoadingSpinner";
 
 const perPage = 20;
 
-export default function pokeExplorer() {
+export default function PokeExplorer() {
   const [currentPage, setCurrentPage] = useState(1);
 
   const {

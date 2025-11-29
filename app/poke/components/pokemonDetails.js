@@ -1,8 +1,8 @@
-import PokemonHeader from './pokemonHeader';
-import PokemonTabs from './pokemonTabs';
-import PokemonStats from './pokemonStats';
+import PokemonHeader from './PokemonHeader';
+import PokemonTabs from './PokemonTabs';
+import PokemonStats from './PokemonStats';
 
-export default function pokemonDetails({ 
+export default function PokemonDetails({ 
   pokemonDetails, 
   activeTab, 
   onTabChange 

@@ -1,6 +1,6 @@
-import StatCard from './statCard';
+import StatCard from './StatCard';
 
-export default function pokemonStats({ pokemonDetails, activeTab }) {
+export default function PokemonStats({ pokemonDetails, activeTab }) {
   return (
     <div className="space-y-4">
       {/* Game Indices */}

@@ -1,4 +1,4 @@
-export default function pageHeader({ title, subtitle }) {
+export default function PageHeader({ title, subtitle }) {
   return (
     <header className="mb-6">
       <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">

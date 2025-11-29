@@ -1,4 +1,4 @@
-export default function pokemonTable({ 
+export default function PokemonTable({ 
   pokemons, 
   currentPage, 
   itemsPerPage, 
